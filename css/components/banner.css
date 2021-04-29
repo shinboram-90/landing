@@ -1,0 +1,38 @@
+.banner {
+  background-image: url(../../images/korea-banner.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.banner > .container {
+  color: white;
+  padding-left: 50px;
+  margin-left: 100px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner p {
+  font-size: 24px;
+}
+.banner h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.container > .btn {
+  display: inline-block;
+  background-color: rgb(30, 221, 136);
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  text-shadow: none;
+  box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+}
+
+.container > .btn:hover {
+  background-color: rgba(30, 221, 136, 0.9);
+  transition: background 0.4s ease-in-out;
+}

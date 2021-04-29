@@ -1,0 +1,35 @@
+footer {
+  text-align: center;
+  background-color: rgba(226, 137, 97, 0.5);
+  margin-top: 40px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+footer li {
+  padding: 20px;
+  font-size: 30px;
+  color: #1edd88;
+}
+
+footer p {
+  padding: 0 40px 40px 40px;
+  margin: 0;
+}
+
+footer a {
+  color: rgb(76, 76, 120);
+  text-decoration: none;
+}
+
+footer p > i {
+  color: red;
+
+  padding: 0;
+  border: 0;
+}

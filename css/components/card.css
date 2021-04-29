@@ -1,0 +1,25 @@
+#how-it-works {
+  text-align: center;
+}
+
+.container .cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+  height: 300px;
+}
+.single-card {
+  width: 250px;
+  background-color: white;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.single-card > img {
+  height: 100px;
+  padding-top: 50px;
+}
+
+.single-card > h3 p {
+}
